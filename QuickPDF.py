@@ -219,7 +219,7 @@ st.markdown(
 )
 
 # Option selection for different PDF functionalities
-option = st.selectbox('Choose Option', ['PDF to Word Converter', 'Insert Journal Sheet PDFs','Merged PDF', 'Rotate PDF', 'Compress PDF', 'Password Protect PDF', 'Remove Password from PDF'])
+option = st.selectbox('Choose Option', ['PDF to Word Converter', 'Insert Journal Sheet PDFs','Merged PDF', 'Compress PDF', 'Password Protect PDF', 'Remove Password from PDF'])
 
 # PDF to Word Converter
 if option == 'PDF to Word Converter':
